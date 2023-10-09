@@ -1,0 +1,270 @@
+body{
+    background: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+    width: fit-content;
+}
+.page-header{
+    position: relative;
+    width: 1920px;
+    height: 80px;
+    border-bottom: 1px solid #EFEFEF;
+    ;
+}
+.header-logo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 40px;
+    padding: 5.33px, 19.67px, 8px, 3px;
+
+    .header-logo-img{
+        position: absolute;
+        width: 17.33px;
+        height: 26.67px;
+        top: 5.33px;
+        left: 3px;
+    }
+}
+
+.header-txt{
+    position: absolute;
+    width: 54px;
+    height: 25px;
+    top: 27px;
+    left: 80px;
+    font-family: PingFang SC;
+    font-size: 18px;
+}
+.header-search{
+    position: absolute;
+    display:flex;
+    width: 600px;
+    height: 40px;
+    top: 21px;
+    left: 350px;
+    padding-left:49px;
+    padding-right:49px;
+    border-radius: 20px;
+    background: #EEEEEE;
+}
+.search-input{
+    position:relative;
+    height: 20px;
+    top: 10px;
+    flex:1;
+    font-family: PingFang SC;
+    font-size: 14px;
+    Color: #999999;
+    background: #EEEEEE;
+    border:none;
+}
+.header-search{
+    .icon-ocr-copy{
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 8px;
+        right: 15px;
+        line-height: 24px;
+        text-align: center;
+        font-size: 16px;
+        color: #777777;
+        font-weight: 800;
+    }
+    .icon-search{
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 8px;
+        left: 15px;
+        line-height: 24px;
+        text-align: center;
+        font-size: 16px;
+        color: #777777;
+        font-weight: 800;
+    }
+}
+.header-home{
+    position: absolute;
+    display: flex;
+    width: 32px;
+    height:100%;
+    left: 1626px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+    .home-txt{
+        height: 22px;
+        width: 32px;
+        font-family: PingFang SC;
+    }
+}
+.header-collect{
+    position: absolute;
+    display: flex;
+    width: 48px;
+    height:100%;
+    left: 1698px;
+    align-items: center;
+    justify-content: center;
+    border-bottom:2px solid #333333;
+    cursor: pointer;
+
+
+    .collect-txt{
+        height: 22px;
+        width: 48px;
+        font-family: PingFang SC;
+        color: #333333;
+    }
+}
+.header-id{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 1806px;
+    cursor: pointer;
+
+}
+.page-header .icon-xiangxiajiantou2{
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 29px;
+    left: 1856px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+}
+
+.page-body-wrapper{
+    padding-top: 80px;
+    height: 1000px;
+}
+
+.id-section{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+
+    .id-img{
+        width: 100px;
+        height: 100px;
+
+    }
+}
+.info-section{
+    box-sizing: border-box;
+    padding: 40px 700px 0;
+    
+
+    .name-txt{
+        font-family: PingFang SC;
+        font-size: 14px;
+        line-height: 20px;
+        color: #666666;
+    }
+    .name-input{
+        margin-top: 10px;
+        width: 520px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 2px;
+        border: 1px solid #EFEFEF;
+    }
+    .name-input::placeholder{
+        color: #333333;
+    }
+    .info-phone{
+        margin-top: 40px;
+    }
+    .phone-txt{
+        font-family: PingFang SC;
+        font-size: 14px;
+        line-height: 20px;
+        color: #666666;
+    }
+    .phone-num{
+        display: flex;
+        margin-top: 10px;
+
+        .phone-num-imput{
+            width: 370px;
+            height: 40px;
+            padding: 10px;
+            border-radius: 2px;
+            background-color: #EFEFEF;
+            border: 1px solid #EFEFEF;
+        }
+        .phone-num-imput::placeholder{
+            color: #999999;
+        }
+        .phone-num-btn{
+            margin-left: 20px;
+            width: 130px;
+            height: 40px;
+            border-radius: 2px;
+            background: #333333;
+            line-height: 40px;
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    .info-introduce{
+        margin-top: 40px;
+
+        .introduce-txt{
+            font-family: PingFang SC;
+            font-size: 14px;
+            line-height: 20px;
+            color: #666666;
+        }
+        .introduce-input{
+            position: relative;
+            margin-top: 10px;
+            width: 520px;
+            height: 100px;
+            padding: 10px;
+            border-radius: 2px;
+            border: 1px solid #EFEFEF;
+
+        }
+        .introduce-input::placeholder{
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+    }
+    
+    .info-save{
+        margin-top: 40PX;
+        display: flex;
+        justify-content: flex-end;
+
+        .save-btn{
+            width: 100px;
+            height: 40px;
+            border-radius: 2px;
+            background: #333333;
+            line-height: 40px;
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+}

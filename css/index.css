@@ -1,0 +1,495 @@
+
+
+body{
+    background: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+    width: fit-content;
+}
+.page-header{
+    position: relative;
+    width: 1920px;
+    height: 80px;
+    border-bottom: 1px solid #EFEFEF;
+    ;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.header-logo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 40px;
+    padding: 5.33px, 19.67px, 8px, 3px;
+
+    .header-logo-img{
+        position: absolute;
+        width: 17.33px;
+        height: 26.67px;
+        top: 5.33px;
+        left: 3px;
+    }
+}
+
+.header-txt{
+    position: absolute;
+    width: 54px;
+    height: 25px;
+    top: 27px;
+    left: 80px;
+    font-family: PingFang SC;
+    font-size: 18px;
+    /* font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;  */
+}
+.header-search{
+    position: absolute;
+    display:flex;
+    width: 600px;
+    height: 40px;
+    top: 21px;
+    left: 350px;
+    padding-left:49px;
+    padding-right:49px;
+    border-radius: 20px;
+    background: #EEEEEE;
+}
+.search-input{
+    position:relative;
+    height: 20px;
+    top: 10px;
+    flex:1;
+    font-family: PingFang SC;
+    font-size: 14px;
+    /* font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left; */
+    Color: #999999;
+    background: #EEEEEE;
+    border:none;
+}
+.header-search{
+    .icon-ocr-copy{
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 8px;
+        right: 15px;
+        line-height: 24px;
+        text-align: center;
+        font-size: 16px;
+        color: #777777;
+        font-weight: 800;
+    }
+    .icon-search{
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 8px;
+        left: 15px;
+        line-height: 24px;
+        text-align: center;
+        font-size: 16px;
+        color: #777777;
+        font-weight: 800;
+    }
+}
+.header-home{
+    position: absolute;
+    display: flex;
+    width: 32px;
+    height:100%;
+    left: 1626px;
+    align-items: center;
+    justify-content: center;
+    border-bottom:2px solid #333333;
+
+    .home-txt{
+        height: 22px;
+        width: 32px;
+        font-family: PingFang SC;
+        /* font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #333333; */
+    }
+}
+.header-collect{
+    position: absolute;
+    display: flex;
+    width: 48px;
+    height:100%;
+    left: 1698px;
+    align-items: center;
+    justify-content: center;
+
+    .collect-txt{
+        height: 22px;
+        width: 48px;
+        font-family: PingFang SC;
+        color: #333333;
+        /* font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left; */
+    }
+}
+/* .header-id{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 1806px;
+
+}
+.page-header .icon-xiangxiajiantou1{
+    position: absolute;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    top: 29px;
+    left: 1856px;
+    padding: 0px 6px 0px 6px;
+    font-size: 18px;
+    font-weight: 600;
+} */
+.header-signin{
+    box-sizing: border-box;
+    position: absolute;
+    width: 107px;
+    height: 40px;
+    top: 20px;
+    left: 1773px;
+    padding: 10px 22px 10px 22px;
+    border-radius: 2px;
+    background: #333333;
+    cursor: pointer;
+}
+.header-signin-txt{
+    display: block;
+    width: 63px;
+    height: 20px;
+    font-family: PingFang SC;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    /* line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left; */
+}
+
+.page-body{
+    position: relative;
+    display: flex;
+}
+
+.nav-section{
+    box-sizing: border-box;
+    width: 330px;
+    height: 1000px;
+    border-right: 1px solid #EFEFEF;
+    padding: 20px 28px 0 40px;
+
+}
+.style-title, .space-title{
+    width: 40px;
+    height: 28px;
+    font-family: PingFang SC;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    /* letter-spacing: 0em;
+    text-align: left; */
+    color: #111111;
+}
+
+.style-list-box, .space-list-box{
+    margin-top: 20px;
+}
+.style-list-top, .space-list-top{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.style-list-bottom, .space-list-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    .style-item, .space-item{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .style-item:nth-child(3n), .space-item:nth-child(3n){
+        margin-right: 0;
+    }
+    .style-item:nth-child(n+10), .space-item:nth-child(n+10){
+        margin-bottom: 0;
+    }
+}
+
+.style-item, .space-item{
+    display: flex;
+    width: fit-content;
+    height: 36px;
+    padding:8px 15px 8px 15px;
+    border: 1px solid #EFEFEF;
+    color: #333333;
+    cursor: pointer;
+}
+.style-item-txt, .space-item-txt{
+    display: block;
+    height: 20px;
+    width: fit-content;
+    font-family: PingFang SC;
+    font-size: 14px;
+    /* font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left; */
+    white-space: nowrap; 
+}
+.item-tag{
+    color: #777777;
+}
+.style-item .icon-xiangshangjiantou, .space-item .icon-xiangshangjiantou{
+    display: block;
+    width: 16px;
+    height: 16px;
+    color:#777777;
+}
+
+.nav-section{
+    .style-item:hover, .space-item:hover{
+        background: #333333;
+        color: #FFFFFF;
+
+        .icon-xiangshangjiantou{
+            color: #FFFFFF;
+        }
+
+    }
+}
+
+
+.img-section{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3,290px);
+    gap: 45px 20px;
+    padding: 20px 40px 20px 20px;
+}
+.img-box{
+    position: relative;
+    width: 290px;
+    height: 290px;
+    font-size: 0;
+}
+.img-item{
+    width: 290px;
+    height: 290px;
+}
+.img-download{
+    position: absolute;
+    display: none;
+    left: 15px;
+    bottom: 20px;
+    width: 105px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+
+    .icon-xiazai{
+        display: block;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .img-download-txt{
+        display: block;
+        height: 20px;
+        width: 56px;
+        margin-left: 5px;
+        font-family: PingFang SC;
+        font-size: 14px;
+        color: #333333;
+    }
+}
+.img-box:hover .img-download{
+    display: flex;
+}
+.sign-section{
+    display: none;
+    height: 100%;
+}
+.sign-mask{
+    position: fixed;
+    inset: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    pointer-events: none;
+}
+.sign-box{
+    position: absolute;
+    width: 600px;
+    height: 520px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-300px,-260px);
+    background: #FFFFFF;
+}
+
+.sign-logo{
+    width: 116px;
+    height: 40px;
+    margin: 40px auto;
+}
+.sign-select{
+    display: flex;
+    justify-content: center;
+}
+.select-weixin, .select-phone{
+    height: 25px;
+    font-family: PingFang SC;
+    font-size: 18px;
+    font-weight: 600;
+    /* line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center; */
+    cursor: pointer;
+}
+.select-weixin{
+    width: 108px;
+    color: #333333;
+    margin-right: 80px;
+}
+.select-phone{
+    width: 90px;
+    color: #999999;
+}
+.sign-weixin{
+    /* display: none; */
+    margin-top: 20px;
+    text-align: center;
+
+    .sign-weixin-barcode{
+        width: 260px;
+        height: 260px;
+        margin: 0 auto;
+    }
+    .sign-weixin-txt{
+        margin-top: 20px;
+        font-family: PingFang SC;
+        font-size: 14px;
+    }
+}
+.sign-phone{
+    display: none;
+    margin-top: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+    .phone-num{
+        width: 56px;
+        height: 20px;
+        font-family: PingFang SC;
+        font-size: 14px;
+        color: #666666;
+    }
+    .phone-input{
+        box-sizing: border-box;
+        margin-top: 10px;
+        width: 400px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 2px;
+        border: 1px solid #EFEFEF;  
+    }
+    .phone-input::placeholder{
+        color: #999999;
+    }
+    .code-num{
+        margin-top: 20px;
+        height: 20px;
+        width: 42px;
+        font-family: PingFang SC;
+        font-size: 14px;
+        color: #666666;
+    }
+    .code-input-box{
+        box-sizing: border-box;
+        display: flex;
+        margin-top: 10px;
+        width: 400px;
+        height: 40px;
+        border-radius: 2px;
+        border: 1px solid #EFEFEF;  
+    }
+    .code-input{
+        width: 310px;
+        height: 40px;
+        border: 0;
+        border-bottom: 1px solid #EFEFEF;
+        border-right: 1px solid #EFEFEF;
+        padding: 10px;
+    }
+    .code-input::placeholder{
+        color: #999999;
+    }
+    .code-get{
+        width: 90px;
+        height: 40px;
+        color: #CCCCCC;
+        border: none;
+        background-color: #FFFFFF;
+        border-bottom:1px solid #EFEFEF ;
+        cursor: pointer;
+    }
+    .sigh-in{
+        box-sizing: border-box;
+        width:400px;
+        height: 40px;
+        padding: 10px 22px 10px 22px;
+        margin-top: 60px;
+        border-radius: 2px;
+        background: #333333;
+        font-family: PingFang SC;
+        font-size: 14px;
+        color: #FFFFFF;
+        font-weight: 500;
+        text-align: center;
+        cursor: pointer;
+    }    
+}
+.select-phone:active{
+    color: #333333;
+}
+.sign-select:has(.select-phone:active) .select-weixin{
+    color: #999999;
+}
+
+.sign-select:has(.select-phone:active) ~ .sign-weixin{
+    display: none;
+}
+.sign-select:has(.select-phone:active) ~ .sign-phone{
+    display: block;
+}
+
+
+
+

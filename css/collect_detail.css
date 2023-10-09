@@ -1,0 +1,414 @@
+body{
+    background: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+    width: fit-content;
+}
+.page-header{
+    position: relative;
+    width: 1920px;
+    height: 80px;
+    border-bottom: 1px solid #EFEFEF;
+    ;
+}
+.header-logo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 40px;
+    padding: 5.33px, 19.67px, 8px, 3px;
+
+    .header-logo-img{
+        position: absolute;
+        width: 17.33px;
+        height: 26.67px;
+        top: 5.33px;
+        left: 3px;
+    }
+}
+
+.header-txt{
+    position: absolute;
+    width: 54px;
+    height: 25px;
+    top: 27px;
+    left: 80px;
+    font-family: PingFang SC;
+    font-size: 18px;
+}
+.header-search{
+    position: absolute;
+    display:flex;
+    width: 600px;
+    height: 40px;
+    top: 21px;
+    left: 350px;
+    padding-left:49px;
+    padding-right:49px;
+    border-radius: 20px;
+    background: #EEEEEE;
+}
+.search-input{
+    position:relative;
+    height: 20px;
+    top: 10px;
+    flex:1;
+    font-family: PingFang SC;
+    font-size: 14px;
+    Color: #999999;
+    background: #EEEEEE;
+    border:none;
+}
+.header-search{
+    .icon-ocr-copy{
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 8px;
+        right: 15px;
+        line-height: 24px;
+        text-align: center;
+        font-size: 16px;
+        color: #777777;
+        font-weight: 800;
+    }
+    .icon-search{
+        display: block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 8px;
+        left: 15px;
+        line-height: 24px;
+        text-align: center;
+        font-size: 16px;
+        color: #777777;
+        font-weight: 800;
+    }
+}
+.header-home{
+    position: absolute;
+    display: flex;
+    width: 32px;
+    height:100%;
+    left: 1626px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+    .home-txt{
+        height: 22px;
+        width: 32px;
+        font-family: PingFang SC;
+    }
+}
+.header-collect{
+    position: absolute;
+    display: flex;
+    width: 48px;
+    height:100%;
+    left: 1698px;
+    align-items: center;
+    justify-content: center;
+    border-bottom:2px solid #333333;
+    cursor: pointer;
+
+
+    .collect-txt{
+        height: 22px;
+        width: 48px;
+        font-family: PingFang SC;
+        color: #333333;
+    }
+}
+.header-id{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 1806px;
+    cursor: pointer;
+
+}
+.page-header .icon-xiangxiajiantou2{
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 29px;
+    left: 1856px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+}
+
+.page-body-wrapper{
+    padding: 40px 350px;
+    height: 1000px;
+}
+
+.title-section{
+
+    .title-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title-name{
+        display: flex;
+    }
+    .title-name-icon{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height: 40px;
+        text-align: center;
+        transform: translateX(-8px);
+        cursor: pointer;
+
+        .icon-a-zuojiantouzhixiangzuojiantou{
+            font-size: 20px;
+            font-weight: 600;
+            color: rgba(51, 51, 51, 1);
+        }
+    }
+    .title-name-icon:hover{
+        background-color: rgba(238, 238, 238, 1);
+    }
+    .title-name-txt{
+        margin-left: 4px;
+        font-family: PingFang SC;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 42px;
+        color: #333333;        
+    }
+
+    .title-operation{
+        display: flex;
+
+        .icon-24gf-lock{
+            display: flex;
+            align-items: center;
+            width: 24px;
+            color: #CCCCCC;
+
+        }
+
+        .icon-huadonganniux{
+            display: flex;
+            height: 24px;
+            width: 40px;
+            margin-left: 10px;
+            color: #333333;
+            font-size: 40px;
+            font-weight: 400;
+        }
+    }
+
+    .title-operation-txt{
+        display: flex;
+        align-items: center;
+        font-family: PingFang SC;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+	    vertical-align: baseline;
+
+    }
+
+    .title-operation-icon{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        transform: translateX(8px);
+        cursor: pointer;
+    
+        .icon-jiahao{
+            width: 24px;
+            height: 24px;
+            font-size: 22px;
+            font-weight: 600;
+            color:#111111;
+            line-height: 24px;
+            text-align: center;
+        }
+        .icon-txt{
+            position: absolute;
+            top: 50px;
+            left: 8px;
+            height: 25px;
+            width: 76px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+            font-family: PingFang SC;
+            font-size: 12px;
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            z-index: 2000;
+    
+        }
+    }
+    .title-operation-icon:hover{
+        background-color: #EEEEEE;
+    
+        .icon-txt{
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+    }
+
+    .title-bottom{
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 44px;
+        padding-right: 40px;
+        overflow: hidden;
+        white-space: nowrap; 
+    }
+    .title-bottom-txt{
+        color: #999999;
+        font-family: PingFang SC;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+}
+
+.picture-section{
+    display: flex;
+    flex-wrap: wrap;
+
+    .picture-item{
+        box-sizing: border-box;
+        margin-top: 30px;
+        margin-right: 20px;
+        font-size: 0;
+    }
+    .picture-item:nth-child(4n){
+        margin-right: 0;
+    }
+    .picture-img{
+        position: relative;
+        width: 290px;
+        height: 350px;
+        cursor: pointer;
+
+        .picture-img-mainer::after{
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+        .picture-img-icon{
+            position: absolute;
+            top: 20px;
+            left: 15px;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.8);
+
+            .icon-huabi{
+                font-size: 24px;
+                color: #333333;
+            }
+        }
+
+        .picture-img-collect{
+            position: absolute;
+            top: 20px;
+            right: 15px;
+            display: none;
+            height: 40px;
+            width: 72px;
+            border-radius: 4px;
+            background-color: #FF3939;
+            font-family: PingFang SC;
+            color: #FFFFFF;
+            font-size: 14px;
+            line-height: 40px;
+            text-align: center;
+
+        }
+
+        .picture-img-download{
+            position: absolute;
+            display: none;
+            left: 15px;
+            bottom: 20px;
+            width: 105px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+        
+            .icon-xiazai{
+                display: block;
+                width: 24px;
+                height: 24px;
+                line-height: 24px;
+                text-align: center;
+                font-size: 18px;
+            }
+            .img-download-txt{
+                display: block;
+                height: 20px;
+                width: 56px;
+                margin-left: 5px;
+                font-family: PingFang SC;
+                font-size: 14px;
+                color: #333333;
+            }
+        }
+    }
+    .picture-img:hover{
+        .picture-img-mainer::after{
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+        .picture-img-icon{
+            display: flex;
+        }
+        .picture-img-collect{
+            display: block;
+        }
+        .picture-img-download{
+            display: flex;
+        }
+    }
+
+    .picture-instruction{
+        margin-top: 10px;
+        width: 290px;
+        height: 17px;
+        color: #666666;
+        font-family: PingFang SC;
+        font-size: 12px;
+        line-height: 17px;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
