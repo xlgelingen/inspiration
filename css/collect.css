@@ -11,9 +11,7 @@ body{
     height: 80px;
     border-bottom: 1px solid #EFEFEF;
     ;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
+   
 }
 .header-logo{
     position: absolute;
@@ -40,10 +38,7 @@ body{
     left: 80px;
     font-family: PingFang SC;
     font-size: 18px;
-    /* font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;  */
+    
 }
 .header-search{
     position: absolute;
@@ -64,10 +59,7 @@ body{
     flex:1;
     font-family: PingFang SC;
     font-size: 14px;
-    /* font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left; */
+   
     Color: #999999;
     background: #EEEEEE;
     border:none;
@@ -152,7 +144,6 @@ body{
     height: 24px;
     top: 29px;
     left: 1856px;
-    /* padding: 0px 6px 0px 6px; */
     line-height: 24px;
     text-align: center;
     font-size: 18px;

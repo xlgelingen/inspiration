@@ -13,9 +13,6 @@ body{
     height: 80px;
     border-bottom: 1px solid #EFEFEF;
     ;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
 }
 .header-logo{
     position: absolute;
@@ -42,10 +39,6 @@ body{
     left: 80px;
     font-family: PingFang SC;
     font-size: 18px;
-    /* font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;  */
 }
 .header-search{
     position: absolute;
@@ -66,10 +59,6 @@ body{
     flex:1;
     font-family: PingFang SC;
     font-size: 14px;
-    /* font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left; */
     Color: #999999;
     background: #EEEEEE;
     border:none;
@@ -116,12 +105,6 @@ body{
         height: 22px;
         width: 32px;
         font-family: PingFang SC;
-        /* font-size: 16px;
-        font-weight: 400;
-        line-height: 22px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #333333; */
     }
 }
 .header-collect{
@@ -138,32 +121,8 @@ body{
         width: 48px;
         font-family: PingFang SC;
         color: #333333;
-        /* font-size: 16px;
-        font-weight: 400;
-        line-height: 22px;
-        letter-spacing: 0em;
-        text-align: left; */
     }
 }
-/* .header-id{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 20px;
-    left: 1806px;
-
-}
-.page-header .icon-xiangxiajiantou1{
-    position: absolute;
-    display: flex;
-    width: 24px;
-    height: 24px;
-    top: 29px;
-    left: 1856px;
-    padding: 0px 6px 0px 6px;
-    font-size: 18px;
-    font-weight: 600;
-} */
 .header-signin{
     box-sizing: border-box;
     position: absolute;
@@ -184,9 +143,6 @@ body{
     font-size: 14px;
     font-weight: 500;
     color: #FFFFFF;
-    /* line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left; */
 }
 
 .page-body{
@@ -209,8 +165,6 @@ body{
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
-    /* letter-spacing: 0em;
-    text-align: left; */
     color: #111111;
 }
 
@@ -253,10 +207,6 @@ body{
     width: fit-content;
     font-family: PingFang SC;
     font-size: 14px;
-    /* font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left; */
     white-space: nowrap; 
 }
 .item-tag{
@@ -368,10 +318,7 @@ body{
     font-family: PingFang SC;
     font-size: 18px;
     font-weight: 600;
-    /* line-height: 25px;
-    letter-spacing: 0em;
-    text-align: center; */
-    cursor: pointer;
+    
 }
 .select-weixin{
     width: 108px;
@@ -383,7 +330,6 @@ body{
     color: #999999;
 }
 .sign-weixin{
-    /* display: none; */
     margin-top: 20px;
     text-align: center;
 
