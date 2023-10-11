@@ -1,18 +1,18 @@
 
 
 body{
+    position: relative;
     background: #FFFFFF;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
     'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
     'Noto Color Emoji';
-    width: fit-content;
+    /* width: fit-content; */
 }
 .page-header{
     position: relative;
     width: 1920px;
     height: 80px;
     border-bottom: 1px solid #EFEFEF;
-    ;
 }
 .header-logo{
     position: absolute;
@@ -148,6 +148,8 @@ body{
 .page-body{
     position: relative;
     display: flex;
+    height: 1000px;
+    width: 1920px;
 }
 
 .nav-section{
